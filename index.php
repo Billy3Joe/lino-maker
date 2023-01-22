@@ -24,9 +24,6 @@
 
 <body onload="showInstructions()" onkeydown="KeyDown(event)" onkeyup="KeyUp(event)" ondragend="onMouseUp()">
     <div class="sucess">
-
-        <!-- <h1 style="color: #fff;">Bienvenue <?php echo $_SESSION['username']; ?>!</h1> -->
-        <button style="position:absolute;left:1330px;bottom:668px; background-color: red; padding:10px; border-radius:30px"><a style="color:#fff;" href="logout.php">Déconnexion</a></button>	
         <!-- Banner -->
         <img id="banner" src="Pictures/banner.png">
 
